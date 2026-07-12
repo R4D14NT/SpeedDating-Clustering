@@ -137,6 +137,24 @@
     "race_o": 0.4082482904638631,
     "field": 0.28867513459481287
   },
+  "block_scales_no_outcome": {
+    "interests": 0.24310920012623358,
+    "importance": 0.4099723152943532,
+    "pref_o": 0.4101547223496655,
+    "self_rating": 0.44931483758502383,
+    "partner_rating": 0.4159433586429678,
+    "rated_by_partner": 0.4169122002441791,
+    "demographics": 0.5756634308127963,
+    "same_values": 0.7088675870868928,
+    "expectations": 0.7244436940130585,
+    "met": 1.0190416740263664,
+    "interest_match": 1.0054380695495708,
+    "gender": 1.0,
+    "samerace": 1.0,
+    "race": 0.40824829046386296,
+    "race_o": 0.4082482904638631,
+    "field": 0.28867513459481287
+  },
   "outcome_cols": [
     "like",
     "guess_prob_liked"
