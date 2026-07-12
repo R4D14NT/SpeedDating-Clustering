@@ -1,13 +1,86 @@
 {
-  "W_CAT": 1.0,
-  "block_scales": {
-    "gender": 2.000001424687953,
-    "samerace": 2.044899763370772,
-    "race": 1.2772724367575061,
-    "race_o": 1.2763417504420693,
-    "field": 1.0820611670063884
-  },
   "blocks": {
+    "interests": [
+      "sports",
+      "tvsports",
+      "exercise",
+      "dining",
+      "museums",
+      "art",
+      "hiking",
+      "gaming",
+      "clubbing",
+      "reading",
+      "tv",
+      "theater",
+      "movies",
+      "concerts",
+      "music",
+      "shopping",
+      "yoga"
+    ],
+    "importance": [
+      "attractive_important",
+      "sincere_important",
+      "intellicence_important",
+      "funny_important",
+      "ambtition_important",
+      "shared_interests_important"
+    ],
+    "pref_o": [
+      "pref_o_attractive",
+      "pref_o_sincere",
+      "pref_o_intelligence",
+      "pref_o_funny",
+      "pref_o_ambitious",
+      "pref_o_shared_interests"
+    ],
+    "self_rating": [
+      "attractive",
+      "sincere",
+      "intelligence",
+      "funny",
+      "ambition"
+    ],
+    "partner_rating": [
+      "attractive_partner",
+      "sincere_partner",
+      "intelligence_partner",
+      "funny_partner",
+      "ambition_partner",
+      "shared_interests_partner"
+    ],
+    "rated_by_partner": [
+      "attractive_o",
+      "sinsere_o",
+      "intelligence_o",
+      "funny_o",
+      "ambitous_o",
+      "shared_interests_o"
+    ],
+    "demographics": [
+      "age",
+      "age_o",
+      "d_age"
+    ],
+    "same_values": [
+      "importance_same_race",
+      "importance_same_religion"
+    ],
+    "expectations": [
+      "expected_happy_with_sd_people",
+      "expected_num_matches"
+    ],
+    "outcome": [
+      "like",
+      "guess_prob_liked"
+    ],
+    "met": [
+      "met"
+    ],
+    "interest_match": [
+      "interests_correlate"
+    ],
     "gender": [
       "gender_male"
     ],
@@ -45,64 +118,28 @@
       "field_Unknown"
     ]
   },
-  "continuous": [
-    "age",
-    "age_o",
-    "d_age",
-    "importance_same_race",
-    "importance_same_religion",
-    "pref_o_attractive",
-    "pref_o_sincere",
-    "pref_o_intelligence",
-    "pref_o_funny",
-    "pref_o_ambitious",
-    "pref_o_shared_interests",
-    "attractive_o",
-    "sinsere_o",
-    "intelligence_o",
-    "funny_o",
-    "ambitous_o",
-    "shared_interests_o",
-    "attractive_important",
-    "sincere_important",
-    "intellicence_important",
-    "funny_important",
-    "ambtition_important",
-    "shared_interests_important",
-    "attractive",
-    "sincere",
-    "intelligence",
-    "funny",
-    "ambition",
-    "attractive_partner",
-    "sincere_partner",
-    "intelligence_partner",
-    "funny_partner",
-    "ambition_partner",
-    "shared_interests_partner",
-    "sports",
-    "tvsports",
-    "exercise",
-    "dining",
-    "museums",
-    "art",
-    "hiking",
-    "gaming",
-    "clubbing",
-    "reading",
-    "tv",
-    "theater",
-    "movies",
-    "concerts",
-    "music",
-    "shopping",
-    "yoga",
-    "interests_correlate",
-    "expected_happy_with_sd_people",
-    "expected_num_matches",
+  "block_scales": {
+    "interests": 0.24318894559761461,
+    "importance": 0.4100126782770975,
+    "pref_o": 0.4101785209621723,
+    "self_rating": 0.4494140341461783,
+    "partner_rating": 0.41569114118674116,
+    "rated_by_partner": 0.41692840395920044,
+    "demographics": 0.5759346436195162,
+    "same_values": 0.7091287556436132,
+    "expectations": 0.7247995387448777,
+    "outcome": 0.713670812592918,
+    "met": 1.019354834353521,
+    "interest_match": 1.005673943954357,
+    "gender": 1.0,
+    "samerace": 1.0,
+    "race": 0.40824829046386296,
+    "race_o": 0.4082482904638631,
+    "field": 0.28867513459481287
+  },
+  "outcome_cols": [
     "like",
-    "guess_prob_liked",
-    "met"
+    "guess_prob_liked"
   ],
   "random_state": 42
 }
