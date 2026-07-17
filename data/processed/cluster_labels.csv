@@ -1,4 +1,4 @@
-row_id,person_id,wave,match,cluster,interest_cluster,preference_cluster
+row_id,person_id,wave,match,person_cluster,interest_cluster,preference_cluster
 0,0,1,0,1,0,1
 1,0,1,0,1,0,1
 2,0,1,1,1,0,1
